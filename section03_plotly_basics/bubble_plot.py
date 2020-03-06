@@ -8,7 +8,7 @@ df = pd.read_csv('data/mpg.csv')
 print(df.head())
 print(df.columns)
 
-# Create data object
+# Data object - create data object
 data = [go.Scatter(x=df['horsepower'],
                    y=df['mpg'],
                    text=df['name'],
